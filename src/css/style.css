@@ -105,15 +105,51 @@ footer{
         font-weight: 800;
     }
 
+    .container .content p{
+        font-size: 14px;
+    }
+
 }
 
-@media(max-width:320px){
-    .container .content{
-        max-width:235px;
+@media(max-width:414px){
 
+    .container .content{
+        max-width:325px;
     }
 
     .container .content p{
         font-size: 12px;
+}
+
+}
+
+
+
+
+@media(max-width:320px){
+    .container .content{
+        max-width:280px;
+    }
+
+    .container .content p{
+        font-size: 12px;
+}
+}
+
+@media(max-width:280px){
+    .container .content{
+        max-width:250px;
+    }
+
+    .container .content .date-publication{
+        font-size: 12px;
+    }
+
+    .container .content h1{
+        font-size: 16px;
+    }
+
+    .container .content p{
+        font-size: 10px;
 }
 }
