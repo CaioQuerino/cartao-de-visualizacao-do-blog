@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,7 +30,8 @@ main{
     max-width: 381px;
     padding: 24px;
     border-radius: 20px;
-    box-shadow: 10px 10px 10px 10px;
+    border: 1px solid;
+    box-shadow: 8px 8px;
     gap: 17px;
 }
 
@@ -44,13 +45,14 @@ background-color: hsl(47, 88%, 63%);
    font-weight: 800;
    font-size: 14px;
    max-width: 82px;
-   padding: 10px;
+   padding: 4.8px;
    border-radius: 5px;
    text-align: center;
+   margin-top: 12px;
 }
 
 .container .content .date-publication{
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -61,11 +63,11 @@ background-color: hsl(47, 88%, 63%);
 }
 
 .container .content p{
-    font-weight: 600;
-    margin-right: 10px;
+    font-weight: 300;
+    margin-right: 12px;
     font-size: 16px;
     color: hsl(0, 0%, 50%);
-    line-height: 1.3;
+    line-height: 1.5;
 }
 
 .container .content .info-user{
